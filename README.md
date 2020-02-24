@@ -1165,6 +1165,7 @@ POST dev/api/panel/deals
 ```page_size``` : Pagesize for paginated results.
 ```sort_key``` :  Sort order for results.
 ```cursor``` : To get next set of resultset. It will be provided in the last record of previous resultset.
+```track_id``` : To get list of deals from a specific track, if you do not provide any track ID, it will fetch the deals from default track.
 
 ###### Example request
 ```sh
